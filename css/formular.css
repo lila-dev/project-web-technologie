@@ -1,0 +1,182 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg , #fcd12a ,#333300);
+  padding: 10px;
+}
+
+.cont{
+  height: 620px;
+  width: 100%;
+  max-width: 900px;
+  background: rgba(0, 0, 0, 0.9);
+  padding: 25px 30px;
+  margin: 0px 28px;
+  border-radius: 5px;
+  box-shadow: -2px 2px 2px black;
+}
+
+
+.cont .mytitle{
+  font-size: 26px;
+  font-weight: 500px;
+  padding-bottom: 6px;
+  color: #fcd12a;
+  text-shadow: 2px 2px 2px rgb(96, 28, 9);
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-style: oblique;
+position: relative;
+}
+.cont .mytitle::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3.1px;
+  width: 31px;
+  background: linear-gradient(135deg , #fcd12a ,#333300);
+}
+
+
+
+ ::placeholder{
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size: 16px;
+
+ }
+ span{
+  color:#fcd12a;
+  font-style: oblique;
+  text-shadow: 2px 2px 2px rgb(96, 28, 9);
+  
+}
+.cont form .user-details{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 0 12px 0 ;
+}
+form .user-details .input-box{
+  margin-bottom: 15px;
+  width: calc( 100% / 2 - 20px);
+}
+.user-details .input-box .details{
+   display: block;
+  font-weight: 500;
+  margin-bottom: 5px ;
+ 
+}
+
+.user-details .input-box input{
+  height: 45px;
+  width: 100%;
+  outline: none;
+  border-radius: 5px;
+  border: 3px solid #fcd12a ;
+  padding-left: 15px;
+  font-size: 16px;
+ border-bottom-width: 3px ;
+ transition: all 0.3s ease ;
+ 
+}
+textarea{
+  outline: none;
+  border-radius: 5px;
+  border: 3px solid #fcd12a ;
+  padding-left: 15px;
+  font-size: 16px;
+ border-bottom-width: 3px ;
+ transition: all 0.3s ease ;
+
+}
+
+
+form .gender-details .gender-title{
+  font-size: 20px;
+  font-weight: 500;
+  text-shadow: 2px 2px 2px rgb(96, 28, 9);
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-style: oblique;
+position: relative;
+}
+form .gender-details .contain{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+form .gender-details .category{
+  display: flex;
+  flex-wrap: wrap;
+  width: 150px;
+  margin: 15px 10px;
+  margin-right: 50px;
+  margin-left: 0px;
+
+}
+.gender-details .category label{
+  display: flex;
+  align-items: center;
+  color: #efde9e;
+  font-size: small;
+  font-weight: lighter;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: italic;
+  margin-right: 10px;
+}
+.gender-details .category .male{
+  height: 18px;
+  width: 18;
+  background: #fcd12a;
+  border-radius: 50%;
+}
+.input .male{
+  
+  color: #fcd12a;
+}
+
+form .button{
+  height: 45px;
+  width: 100px;
+  margin-top: 25px;
+  margin-left: 740px;
+}
+ form .button button{
+  height: 100%;
+  width: 100%;
+  outline: none;
+  color: #fff;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 5px;
+ letter-spacing: 1px;
+  background: linear-gradient(135deg , #fcd12a ,#333300);
+
+ }
+ form .button button:hover{
+  background: linear-gradient(135deg , #333300 ,#fcd12a);
+ }
+
+ form .text button{
+  height: 45px;
+  width: 100%;
+  outline: none;
+  border-radius: 5px;
+  border: 3px solid #fcd12a ;
+  padding-left: 15px;
+  font-size: 25px;
+ border-bottom-width: 3px ;
+ transition: all 0.3s ease ;
+ 
+ }

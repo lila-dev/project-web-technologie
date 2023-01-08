@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Video</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="../assets/up-r.ico" />
+        
+        <link href="../css/styles.css" rel="stylesheet" />
+        <link rel="stylesheet" href="../assets/fontawesome/css/all.css" >
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <div id="progressbar"> </div>
+	    <div id="scrollpath"></div>
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav" style="background-color:black;">
+            <div class="container">
+                <h3 style="color: #FCD12A; font-family: Georgia, serif;">MoveUp</h3>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars ms-1"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../courses.html">Courses</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../exercices.html">Exercices</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../video.html">Video</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../library.html">Library</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../index.html#Become-Teacher">Become Teacher</a></li>
+                    </ul>
+                </div>
+            </div>
+      
+        </nav>
+        <!-- Masthead-->
+       <!-- Video-->
+       <section class="page-section bg-light" id="Video">
+        <div class="text-center" style="margin-top: 100px;">
+            <h2 class="section-heading text-uppercase">Video</h2>
+            <h3 class="section-subheading text-muted">start your lesson now !</h3>
+        </div>
+
+        <h2 class="title"></h2>
+        <div class="container">
+            <div id="video_player">
+                <video controls id="main-Video" src=""></video>
+            </div>
+            <div class="playlistBx">
+                <div class="header">
+                    <div class="row">
+                        <span class="AllLessons"></span>
+                    </div>
+                </div>
+                <ul class="playlist" id="playlist" style="margin: 10px; padding: 0;">
+                </ul>
+                
+            </div>
+        </div>
+    </section>
+    <script src="../js/video-list.js"></script>
+        <script src="../js/script-v.js"></script>
+        <script src="../js/scripts.js"></script>
+
+            
+    </body>
+</html>
