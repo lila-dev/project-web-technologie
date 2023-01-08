@@ -23,7 +23,7 @@ function playMusic(){
    playlist.classList.add('active')
 }
 function loadMusic(indexNumb){
-   mainVideo.src = `../assets/video/${allVideos[indexNumb - 1].src}.mp4`;
+   mainVideo.src = `assets/video/${allVideos[indexNumb - 1].src}.mp4`;
    videoTitle.innerHTML = `${indexNumb}. ${allVideos[indexNumb - 1].name}`
    
 }
